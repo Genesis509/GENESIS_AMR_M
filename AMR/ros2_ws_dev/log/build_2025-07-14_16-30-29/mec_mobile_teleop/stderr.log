@@ -1,0 +1,5 @@
+  File "/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop/xbox_teleop.py", line 47
+    processed_twist.linear.y * =  0.5 # Scale factor for speed 
+                               ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/good_boy_mode/good_boy_mode.egg-info/PKG-INFO
+writing dependency_links to ../../build/good_boy_mode/good_boy_mode.egg-info/dependency_links.txt
+writing entry points to ../../build/good_boy_mode/good_boy_mode.egg-info/entry_points.txt
+writing requirements to ../../build/good_boy_mode/good_boy_mode.egg-info/requires.txt
+writing top-level names to ../../build/good_boy_mode/good_boy_mode.egg-info/top_level.txt
+reading manifest file '../../build/good_boy_mode/good_boy_mode.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/good_boy_mode/good_boy_mode.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/good_boy.launch.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode
+running install_egg_info
+removing '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages/good_boy_mode-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/good_boy_mode/good_boy_mode.egg-info to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages/good_boy_mode-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cam_tilt_pan script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/good_boy_mode
+Installing mobile_bot script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/good_boy_mode
+writing list of installed files to '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+camera_publisher = human_control.camera_publisher:main
+controller_to_serial = human_control.controller_to_serial:main

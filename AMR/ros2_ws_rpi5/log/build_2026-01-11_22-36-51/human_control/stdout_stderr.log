@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/human_control/human_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/human_control/human_control.egg-info/dependency_links.txt
+writing entry points to ../../build/human_control/human_control.egg-info/entry_points.txt
+writing requirements to ../../build/human_control/human_control.egg-info/requires.txt
+writing top-level names to ../../build/human_control/human_control.egg-info/top_level.txt
+reading manifest file '../../build/human_control/human_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/human_control/human_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying human_control/camera_publisher.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control
+copying human_control/controller_to_serial.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control
+running install
+running install_lib
+copying /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control/camera_publisher.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control
+copying /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control/controller_to_serial.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control
+byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control/camera_publisher.py to camera_publisher.cpython-312.pyc
+byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control/controller_to_serial.py to controller_to_serial.cpython-312.pyc
+running install_data
+copying launch/human_control.launch.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control
+running install_egg_info
+removing '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/human_control/human_control.egg-info to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_publisher script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/human_control
+Installing controller_to_serial script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/human_control
+writing list of installed files to '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/install.log'

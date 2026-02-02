@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000383] (human_control) JobQueued: {'identifier': 'human_control', 'dependencies': OrderedDict()}
+[0.001584] (human_control) JobStarted: {'identifier': 'human_control'}
+[0.099746] (-) TimerEvent: {}
+[0.200056] (-) TimerEvent: {}
+[0.300356] (-) TimerEvent: {}
+[0.400640] (-) TimerEvent: {}
+[0.500930] (-) TimerEvent: {}
+[0.601221] (-) TimerEvent: {}
+[0.701526] (-) TimerEvent: {}
+[0.801821] (-) TimerEvent: {}
+[0.902146] (-) TimerEvent: {}
+[1.002487] (-) TimerEvent: {}
+[1.102790] (-) TimerEvent: {}
+[1.203096] (-) TimerEvent: {}
+[1.303390] (-) TimerEvent: {}
+[1.403690] (-) TimerEvent: {}
+[1.503971] (-) TimerEvent: {}
+[1.604256] (-) TimerEvent: {}
+[1.704581] (-) TimerEvent: {}
+[1.739245] (human_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/human_control', 'build', '--build-base', '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build', 'install', '--record', '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/human_control', 'env': {'USER': 'genesis', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/genesis/GENESIS_BOT2_', 'HOME': '/home/genesis', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/genesis/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '2688', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install', 'LOGNAME': 'genesis', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'genesis', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/genesis-RPI5:@/tmp/.ICE-unix/2488,unix/genesis-RPI5:/tmp/.ICE-unix/2488', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d4c21c0f_9e19_41b2_9236_dfe2b6895e27', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.102', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.JSKUI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control', 'QT_QPA_PLATFORM': 'xcb', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages:/home/genesis/libcamera/build/src/py:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.804672] (-) TimerEvent: {}
+[1.904980] (-) TimerEvent: {}
+[2.005274] (-) TimerEvent: {}
+[2.105570] (-) TimerEvent: {}
+[2.151209] (human_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.151676] (human_control) StdoutLine: {'line': b'creating ../../build/human_control/human_control.egg-info\n'}
+[2.178101] (human_control) StdoutLine: {'line': b'writing ../../build/human_control/human_control.egg-info/PKG-INFO\n'}
+[2.178516] (human_control) StdoutLine: {'line': b'writing dependency_links to ../../build/human_control/human_control.egg-info/dependency_links.txt\n'}
+[2.178743] (human_control) StdoutLine: {'line': b'writing entry points to ../../build/human_control/human_control.egg-info/entry_points.txt\n'}
+[2.178912] (human_control) StdoutLine: {'line': b'writing requirements to ../../build/human_control/human_control.egg-info/requires.txt\n'}
+[2.179019] (human_control) StdoutLine: {'line': b'writing top-level names to ../../build/human_control/human_control.egg-info/top_level.txt\n'}
+[2.179188] (human_control) StdoutLine: {'line': b"writing manifest file '../../build/human_control/human_control.egg-info/SOURCES.txt'\n"}
+[2.205628] (-) TimerEvent: {}
+[2.243033] (human_control) StdoutLine: {'line': b"reading manifest file '../../build/human_control/human_control.egg-info/SOURCES.txt'\n"}
+[2.243925] (human_control) StdoutLine: {'line': b"writing manifest file '../../build/human_control/human_control.egg-info/SOURCES.txt'\n"}
+[2.244126] (human_control) StdoutLine: {'line': b'running build\n'}
+[2.244249] (human_control) StdoutLine: {'line': b'running build_py\n'}
+[2.244413] (human_control) StdoutLine: {'line': b'creating /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build\n'}
+[2.244526] (human_control) StdoutLine: {'line': b'creating /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib\n'}
+[2.244633] (human_control) StdoutLine: {'line': b'creating /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control\n'}
+[2.244738] (human_control) StdoutLine: {'line': b'copying human_control/camera_publisher.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control\n'}
+[2.244886] (human_control) StdoutLine: {'line': b'copying human_control/controller_to_serial.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control\n'}
+[2.245063] (human_control) StdoutLine: {'line': b'copying human_control/__init__.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control\n'}
+[2.245327] (human_control) StdoutLine: {'line': b'running install\n'}
+[2.254663] (human_control) StdoutLine: {'line': b'running install_lib\n'}
+[2.282542] (human_control) StdoutLine: {'line': b'creating /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control\n'}
+[2.282738] (human_control) StdoutLine: {'line': b'copying /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control/camera_publisher.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control\n'}
+[2.282879] (human_control) StdoutLine: {'line': b'copying /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control/controller_to_serial.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control\n'}
+[2.283039] (human_control) StdoutLine: {'line': b'copying /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build/lib/human_control/__init__.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control\n'}
+[2.283743] (human_control) StdoutLine: {'line': b'byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control/camera_publisher.py to camera_publisher.cpython-312.pyc\n'}
+[2.284702] (human_control) StdoutLine: {'line': b'byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control/controller_to_serial.py to controller_to_serial.cpython-312.pyc\n'}
+[2.285931] (human_control) StdoutLine: {'line': b'byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control/__init__.py to __init__.cpython-312.pyc\n'}
+[2.286149] (human_control) StdoutLine: {'line': b'running install_data\n'}
+[2.286279] (human_control) StdoutLine: {'line': b'creating /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/ament_index\n'}
+[2.286456] (human_control) StdoutLine: {'line': b'creating /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/ament_index/resource_index\n'}
+[2.286542] (human_control) StdoutLine: {'line': b'creating /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/ament_index/resource_index/packages\n'}
+[2.286639] (human_control) StdoutLine: {'line': b'copying resource/human_control -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/ament_index/resource_index/packages\n'}
+[2.286738] (human_control) StdoutLine: {'line': b'copying package.xml -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control\n'}
+[2.286864] (human_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.305696] (-) TimerEvent: {}
+[2.323590] (human_control) StdoutLine: {'line': b'Copying ../../build/human_control/human_control.egg-info to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control-0.0.0-py3.12.egg-info\n'}
+[2.324839] (human_control) StdoutLine: {'line': b'running install_scripts\n'}
+[2.405801] (-) TimerEvent: {}
+[2.506085] (-) TimerEvent: {}
+[2.526244] (human_control) StdoutLine: {'line': b'Installing camera_publisher script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/human_control\n'}
+[2.526544] (human_control) StdoutLine: {'line': b'Installing controller_to_serial script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/human_control\n'}
+[2.526924] (human_control) StdoutLine: {'line': b"writing list of installed files to '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/install.log'\n"}
+[2.606204] (-) TimerEvent: {}
+[2.613366] (human_control) CommandEnded: {'returncode': 0}
+[2.636692] (human_control) JobEnded: {'identifier': 'human_control', 'rc': 0}
+[2.638725] (-) EventReactorShutdown: {}

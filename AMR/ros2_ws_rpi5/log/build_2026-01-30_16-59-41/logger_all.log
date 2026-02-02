@@ -1,0 +1,177 @@
+[0.252s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.252s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff94895c10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff94a4e2d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff94a4e2d0>>, mixin_verb=('build',))
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.370s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/good_boy_mode) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/good_boy_mode' with type 'ros.ament_python' and name 'good_boy_mode'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_control) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/human_control' with type 'ros.ament_python' and name 'human_control'
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.488s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install
+[0.491s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/jazzy
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'cmake_clean_cache' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'cmake_clean_first' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'cmake_force_configure' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'good_boy_mode' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] DEBUG:colcon.colcon_core.verb:Building package 'good_boy_mode' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode', 'merge_install': False, 'path': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/good_boy_mode', 'symlink_install': False, 'test_result_base': None}
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'cmake_target' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'human_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] DEBUG:colcon.colcon_core.verb:Building package 'human_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control', 'merge_install': False, 'path': '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/human_control', 'symlink_install': False, 'test_result_base': None}
+[0.565s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.567s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/good_boy_mode' with build type 'ament_python'
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('good_boy_mode', 'ament_prefix_path')
+[0.590s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/hook/ament_prefix_path.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/hook/ament_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/hook/ament_prefix_path.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.620s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/human_control' with build type 'ament_python'
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('human_control', 'ament_prefix_path')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/hook/ament_prefix_path.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/hook/ament_prefix_path.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/hook/ament_prefix_path.sh'
+[0.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.068s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/good_boy_mode'
+[1.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.518s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/human_control'
+[1.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/human_control': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_control build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/install.log --single-version-externally-managed install_data
+[3.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/good_boy_mode': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/good_boy_mode build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/install.log --single-version-externally-managed install_data
+[4.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/good_boy_mode' returned '0': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/good_boy_mode build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/install.log --single-version-externally-managed install_data
+[4.105s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode' for CMake module files
+[4.106s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode' for CMake config files
+[4.109s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib'
+[4.112s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/bin'
+[4.112s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/pkgconfig/good_boy_mode.pc'
+[4.114s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages'
+[4.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('good_boy_mode', 'pythonpath')
+[4.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/hook/pythonpath.ps1'
+[4.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/hook/pythonpath.dsv'
+[4.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/hook/pythonpath.sh'
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/bin'
+[4.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(good_boy_mode)
+[4.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/package.ps1'
+[4.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/package.dsv'
+[4.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/package.sh'
+[4.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/package.bash'
+[4.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/good_boy_mode/package.zsh'
+[4.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/share/colcon-core/packages/good_boy_mode)
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control' for CMake module files
+[4.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/human_control' returned '0': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_control build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/install.log --single-version-externally-managed install_data
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control' for CMake config files
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib'
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/bin'
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/pkgconfig/human_control.pc'
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages'
+[4.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('human_control', 'pythonpath')
+[4.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/hook/pythonpath.ps1'
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/hook/pythonpath.dsv'
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/hook/pythonpath.sh'
+[4.145s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/bin'
+[4.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(human_control)
+[4.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/package.ps1'
+[4.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/package.dsv'
+[4.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/package.sh'
+[4.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/package.bash'
+[4.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/human_control/package.zsh'
+[4.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/share/colcon-core/packages/human_control)
+[4.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.150s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.173s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.174s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.232s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/local_setup.ps1'
+[4.235s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/_local_setup_util_ps1.py'
+[4.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/setup.ps1'
+[4.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/local_setup.sh'
+[4.242s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/_local_setup_util_sh.py'
+[4.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/setup.sh'
+[4.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/local_setup.bash'
+[4.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/setup.bash'
+[4.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/local_setup.zsh'
+[4.251s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/setup.zsh'

@@ -1,0 +1,9 @@
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/uninstall.dir
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/mec_mobile_navigation_uninstall.dir
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/test.dir
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/edit_cache.dir
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/rebuild_cache.dir
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/list_install_components.dir
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/install.dir
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/install/local.dir
+/home/genesis/GENESIS_BOT2_/ros2_ws/build/mec_mobile_navigation/CMakeFiles/install/strip.dir

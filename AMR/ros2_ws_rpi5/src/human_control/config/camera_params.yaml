@@ -1,0 +1,48 @@
+# Robot Camera Configuration
+
+camera_publisher:
+  ros__parameters:
+    # Frame settings
+    frame_rate: 20.0          # Frames per second (reduce for slower networks)
+    width: 640                # Image width in pixels
+    height: 480               # Image height in pixels
+    
+    # Compression
+    jpeg_quality: 80          # JPEG quality 1-100 (lower = smaller size)
+    
+    # Topic
+    topic_name: "camera/image_raw/compressed"
+
+camera_subscriber:
+  ros__parameters:
+    # Topic (must match publisher)
+    topic_name: "camera/image_raw/compressed"
+    
+    # Display settings
+    window_name: "Robot Camera Feed"
+    display_fps: true
+    
+    # Frame saving (disabled by default)
+    save_frames: false
+    save_path: "/tmp/frames"
+
+
+# Network optimization presets:
+# 
+# High Quality (LAN):
+#   frame_rate: 30.0
+#   width: 1280
+#   height: 720
+#   jpeg_quality: 90
+#
+# Balanced (WiFi):
+#   frame_rate: 20.0
+#   width: 640
+#   height: 480
+#   jpeg_quality: 80
+#
+# Low Bandwidth (Poor WiFi):
+#   frame_rate: 10.0
+#   width: 480
+#   height: 360
+#   jpeg_quality: 60

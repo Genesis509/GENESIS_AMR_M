@@ -1,0 +1,23 @@
+running egg_info
+writing ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/dependency_links.txt
+writing entry points to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/entry_points.txt
+writing requirements to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/requires.txt
+writing top-level names to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/top_level.txt
+reading manifest file '../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mec_mobile_teleop/xbox_teleop.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build/lib/mec_mobile_teleop
+running install
+running install_lib
+copying /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build/lib/mec_mobile_teleop/xbox_teleop.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop
+byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop/xbox_teleop.py to xbox_teleop.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_subscriber script to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/mec_mobile_teleop
+Installing xbox_teleop script to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/mec_mobile_teleop
+writing list of installed files to '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/install.log'

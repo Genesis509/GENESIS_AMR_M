@@ -1,0 +1,389 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71b62a090980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71b62a1b4650>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71b62a1b4650>>, mixin_verb=('build',))
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.086s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/genesis/genesis_bot2_/ros2_ws'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extension 'ros'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extensions ['cmake', 'python']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extension 'cmake'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extension 'python'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extensions ['python_setup_py']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile) by extension 'python_setup_py'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mec_mobile/mec_mobile' with type 'ros.ament_cmake' and name 'mec_mobile'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_description) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mec_mobile/mec_mobile_description' with type 'ros.ament_cmake' and name 'mec_mobile_description'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_gazebo) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mec_mobile/mec_mobile_gazebo' with type 'ros.ament_cmake' and name 'mec_mobile_gazebo'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_navigation) by extension 'ros'
+[0.106s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mec_mobile/mec_mobile_navigation' with type 'ros.ament_cmake' and name 'mec_mobile_navigation'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/mec_mobile/mec_mobile_teleop) by extension 'ros'
+[0.106s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mec_mobile/mec_mobile_teleop' with type 'ros.ament_python' and name 'mec_mobile_teleop'
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/genesis/genesis_bot2_/ros2_ws/install
+[0.119s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/jazzy
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.147s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description', 'merge_install': False, 'path': '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_description', 'symlink_install': False, 'test_result_base': None}
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.147s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo', 'merge_install': False, 'path': '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.147s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation', 'merge_install': False, 'path': '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.148s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop', 'merge_install': False, 'path': '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_target' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_clean_cache' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_clean_first' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'cmake_force_configure' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'ament_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'catkin_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'mec_mobile' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.148s] DEBUG:colcon.colcon_core.verb:Building package 'mec_mobile' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile', 'merge_install': False, 'path': '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile', 'symlink_install': False, 'test_result_base': None}
+[0.148s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.149s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_description' with build type 'ament_cmake'
+[0.149s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_description'
+[0.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.153s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_gazebo' with build type 'ament_cmake'
+[0.153s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_gazebo'
+[0.153s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.153s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.155s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_navigation' with build type 'ament_cmake'
+[0.156s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_navigation'
+[0.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.158s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_teleop' with build type 'ament_python'
+[0.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_teleop', 'ament_prefix_path')
+[0.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/hook/ament_prefix_path.ps1'
+[0.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/hook/ament_prefix_path.dsv'
+[0.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/hook/ament_prefix_path.sh'
+[0.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description -- -j12 -l12
+[0.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo -- -j12 -l12
+[0.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation -- -j12 -l12
+[0.305s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_teleop'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation -- -j12 -l12
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description -- -j12 -l12
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo -- -j12 -l12
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo
+[0.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_navigation)
+[0.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_navigation
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation' for CMake module files
+[0.339s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation' for CMake config files
+[0.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_navigation', 'cmake_prefix_path')
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/hook/cmake_prefix_path.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/hook/cmake_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/hook/cmake_prefix_path.sh'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/bin'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/lib/pkgconfig/mec_mobile_navigation.pc'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/lib/python3.12/site-packages'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/bin'
+[0.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.sh'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.bash'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.zsh'
+[0.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/colcon-core/packages/mec_mobile_navigation)
+[0.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_navigation)
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation' for CMake module files
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation' for CMake config files
+[0.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_navigation', 'cmake_prefix_path')
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/hook/cmake_prefix_path.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/hook/cmake_prefix_path.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/hook/cmake_prefix_path.sh'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/bin'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/lib/pkgconfig/mec_mobile_navigation.pc'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/lib/python3.12/site-packages'
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/bin'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.ps1'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.sh'
+[0.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.bash'
+[0.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/mec_mobile_navigation/package.zsh'
+[0.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation/share/colcon-core/packages/mec_mobile_navigation)
+[0.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_description)
+[0.348s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description' for CMake module files
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description' for CMake config files
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description
+[0.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_description', 'cmake_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.dsv'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.sh'
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/bin'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/lib/pkgconfig/mec_mobile_description.pc'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/lib/python3.12/site-packages'
+[0.351s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/bin'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.bash'
+[0.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.zsh'
+[0.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/colcon-core/packages/mec_mobile_description)
+[0.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_description)
+[0.352s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description' for CMake module files
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description' for CMake config files
+[0.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_description', 'cmake_prefix_path')
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.dsv'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/hook/cmake_prefix_path.sh'
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/bin'
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/lib/pkgconfig/mec_mobile_description.pc'
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/lib/python3.12/site-packages'
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/bin'
+[0.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.ps1'
+[0.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.dsv'
+[0.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.sh'
+[0.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.bash'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.zsh'
+[0.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/colcon-core/packages/mec_mobile_description)
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_gazebo)
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo' for CMake module files
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_gazebo
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo' for CMake config files
+[0.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_gazebo', 'cmake_prefix_path')
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.ps1'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.dsv'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.sh'
+[0.362s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/bin'
+[0.362s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/lib/pkgconfig/mec_mobile_gazebo.pc'
+[0.362s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/lib/python3.12/site-packages'
+[0.362s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/bin'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.ps1'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.sh'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.bash'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.zsh'
+[0.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/colcon-core/packages/mec_mobile_gazebo)
+[0.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_gazebo)
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo' for CMake module files
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo' for CMake config files
+[0.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_gazebo', 'cmake_prefix_path')
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.dsv'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/hook/cmake_prefix_path.sh'
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/bin'
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/lib/pkgconfig/mec_mobile_gazebo.pc'
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/lib/python3.12/site-packages'
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/bin'
+[0.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.ps1'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.dsv'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.sh'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.bash'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/mec_mobile_gazebo/package.zsh'
+[0.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo/share/colcon-core/packages/mec_mobile_gazebo)
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile': CMAKE_PREFIX_PATH=/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile -- -j12 -l12
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile' returned '0': CMAKE_PREFIX_PATH=/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile -- -j12 -l12
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile': CMAKE_PREFIX_PATH=/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile
+[0.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile)
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile' for CMake module files
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile' returned '0': CMAKE_PREFIX_PATH=/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_navigation:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_gazebo:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile' for CMake config files
+[0.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile', 'cmake_prefix_path')
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.sh'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/bin'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/lib/pkgconfig/mec_mobile.pc'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/lib/python3.12/site-packages'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/bin'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.sh'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.bash'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.zsh'
+[0.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/colcon-core/packages/mec_mobile)
+[0.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile)
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile' for CMake module files
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile' for CMake config files
+[0.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile', 'cmake_prefix_path')
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.ps1'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.dsv'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/hook/cmake_prefix_path.sh'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/bin'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/lib/pkgconfig/mec_mobile.pc'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/lib/python3.12/site-packages'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/bin'
+[0.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.ps1'
+[0.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.sh'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.bash'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/mec_mobile/package.zsh'
+[0.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile/share/colcon-core/packages/mec_mobile)
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_teleop': PYTHONPATH=/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mec_mobile_teleop build --build-base /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_teleop/build install --record /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_teleop/install.log --single-version-externally-managed install_data
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop' for CMake module files
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/src/mec_mobile/mec_mobile_teleop' returned '0': PYTHONPATH=/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mec_mobile_teleop build --build-base /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_teleop/build install --record /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_teleop/install.log --single-version-externally-managed install_data
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop' for CMake config files
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/lib'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/lib/pkgconfig/mec_mobile_teleop.pc'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/lib/python3.12/site-packages'
+[0.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('mec_mobile_teleop', 'pythonpath')
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/hook/pythonpath.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/hook/pythonpath.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/hook/pythonpath.sh'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/bin'
+[0.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mec_mobile_teleop)
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/package.sh'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/mec_mobile_teleop/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_teleop/share/colcon-core/packages/mec_mobile_teleop)
+[0.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.979s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.983s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.992s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/genesis_bot2_/ros2_ws/install/local_setup.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genesis/genesis_bot2_/ros2_ws/install/_local_setup_util_ps1.py'
+[0.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/genesis_bot2_/ros2_ws/install/setup.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/genesis_bot2_/ros2_ws/install/local_setup.sh'
+[0.995s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/genesis/genesis_bot2_/ros2_ws/install/_local_setup_util_sh.py'
+[0.995s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/genesis_bot2_/ros2_ws/install/setup.sh'
+[0.996s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/genesis_bot2_/ros2_ws/install/local_setup.bash'
+[0.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/genesis_bot2_/ros2_ws/install/setup.bash'
+[0.996s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/genesis/genesis_bot2_/ros2_ws/install/local_setup.zsh'
+[0.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/genesis/genesis_bot2_/ros2_ws/install/setup.zsh'

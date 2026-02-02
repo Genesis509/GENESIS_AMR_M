@@ -1,0 +1,22 @@
+[1.907s] Invoking command in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/human_control': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_control build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/install.log --single-version-externally-managed install_data
+[3.114s] running egg_info
+[3.205s] writing ../../build/human_control/human_control.egg-info/PKG-INFO
+[3.206s] writing dependency_links to ../../build/human_control/human_control.egg-info/dependency_links.txt
+[3.213s] writing entry points to ../../build/human_control/human_control.egg-info/entry_points.txt
+[3.214s] writing requirements to ../../build/human_control/human_control.egg-info/requires.txt
+[3.214s] writing top-level names to ../../build/human_control/human_control.egg-info/top_level.txt
+[3.346s] reading manifest file '../../build/human_control/human_control.egg-info/SOURCES.txt'
+[3.347s] writing manifest file '../../build/human_control/human_control.egg-info/SOURCES.txt'
+[3.347s] running build
+[3.348s] running build_py
+[3.350s] running install
+[3.371s] running install_lib
+[3.444s] running install_data
+[3.448s] running install_egg_info
+[3.554s] removing '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control-0.0.0-py3.12.egg-info' (and everything under it)
+[3.559s] Copying ../../build/human_control/human_control.egg-info to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages/human_control-0.0.0-py3.12.egg-info
+[3.563s] running install_scripts
+[4.245s] Installing camera_publisher script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/human_control
+[4.246s] Installing controller_to_serial script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/human_control
+[4.251s] writing list of installed files to '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/install.log'
+[4.577s] Invoked command in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/human_control' returned '0': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/human_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_control build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/human_control/install.log --single-version-externally-managed install_data

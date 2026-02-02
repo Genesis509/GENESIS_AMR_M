@@ -1,0 +1,29 @@
+[1.777s] Invoking command in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/good_boy_mode': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/good_boy_mode build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/install.log --single-version-externally-managed install_data
+[2.196s] running egg_info
+[2.226s] writing ../../build/good_boy_mode/good_boy_mode.egg-info/PKG-INFO
+[2.226s] writing dependency_links to ../../build/good_boy_mode/good_boy_mode.egg-info/dependency_links.txt
+[2.226s] writing entry points to ../../build/good_boy_mode/good_boy_mode.egg-info/entry_points.txt
+[2.227s] writing requirements to ../../build/good_boy_mode/good_boy_mode.egg-info/requires.txt
+[2.227s] writing top-level names to ../../build/good_boy_mode/good_boy_mode.egg-info/top_level.txt
+[2.282s] reading manifest file '../../build/good_boy_mode/good_boy_mode.egg-info/SOURCES.txt'
+[2.283s] adding license file 'LICENSE'
+[2.283s] writing manifest file '../../build/good_boy_mode/good_boy_mode.egg-info/SOURCES.txt'
+[2.284s] running build
+[2.284s] running build_py
+[2.284s] copying good_boy_mode/mobile_bot.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/build/lib/good_boy_mode
+[2.284s] copying good_boy_mode/cam_tilt_pan.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/build/lib/good_boy_mode
+[2.285s] running install
+[2.295s] running install_lib
+[2.325s] copying /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/build/lib/good_boy_mode/mobile_bot.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages/good_boy_mode
+[2.326s] copying /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/build/lib/good_boy_mode/cam_tilt_pan.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages/good_boy_mode
+[2.327s] byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages/good_boy_mode/mobile_bot.py to mobile_bot.cpython-312.pyc
+[2.329s] byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages/good_boy_mode/cam_tilt_pan.py to cam_tilt_pan.cpython-312.pyc
+[2.333s] running install_data
+[2.333s] running install_egg_info
+[2.364s] removing '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages/good_boy_mode-0.0.0-py3.12.egg-info' (and everything under it)
+[2.364s] Copying ../../build/good_boy_mode/good_boy_mode.egg-info to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages/good_boy_mode-0.0.0-py3.12.egg-info
+[2.366s] running install_scripts
+[2.578s] Installing cam_tilt_pan script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/good_boy_mode
+[2.579s] Installing mobile_bot script to /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/good_boy_mode
+[2.579s] writing list of installed files to '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/install.log'
+[2.703s] Invoked command in '/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/src/good_boy_mode' returned '0': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/install/good_boy_mode/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/good_boy_mode build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_rpi5/build/good_boy_mode/install.log --single-version-externally-managed install_data

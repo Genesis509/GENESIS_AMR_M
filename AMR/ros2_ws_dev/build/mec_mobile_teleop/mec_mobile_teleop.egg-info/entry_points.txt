@@ -1,0 +1,3 @@
+[console_scripts]
+camera_subscriber = mec_mobile_teleop.camera_subscriber:main
+xbox_teleop = mec_mobile_teleop.xbox_teleop:main

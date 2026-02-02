@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

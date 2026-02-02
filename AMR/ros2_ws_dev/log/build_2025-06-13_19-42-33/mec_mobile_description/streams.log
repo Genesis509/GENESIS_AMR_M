@@ -1,0 +1,54 @@
+[0.018s] Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description -- -j12 -l12
+[0.089s] Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description -- -j12 -l12
+[0.090s] Invoking command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description
+[0.096s] -- Install configuration: ""
+[0.096s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes
+[0.096s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/intel_realsense
+[0.096s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/intel_realsense/visual
+[0.096s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/intel_realsense/visual/d435.stl
+[0.096s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/rplidar
+[0.097s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/rplidar/rplidar_s2.stl
+[0.097s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d
+[0.097s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d/visual
+[0.097s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d/visual/back_left_wheel_X3.STL
+[0.097s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d/visual/laser_link.STL
+[0.097s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d/visual/base_link_X3.STL
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d/visual/back_right_wheel_X3.STL
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d/visual/front_left_wheel_X3.STL
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d/visual/camera_link.STL
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/meshes/robot_3d/visual/front_right_wheel_X3.STL
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/robots
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/robots/robot_3d.urdf.xacro
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/sensors
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/sensors/rgbd_camera.urdf.xacro
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/sensors/imu.urdf.xacro
+[0.098s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/sensors/lidar.urdf.xacro
+[0.099s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/mech
+[0.099s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/mech/mecanum_wheel.urdf.xacro
+[0.099s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/mech/robot_3d_base.urdf.xacro
+[0.099s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/materials.xacro
+[0.099s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/control
+[0.099s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/urdf/control/mec_mobile.gazebo
+[0.099s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/launch
+[0.100s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/launch/robot_state_publisher.launch.py
+[0.100s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/launch/check_urdf.launch.py
+[0.100s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/rviz
+[0.100s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/rviz/mec_mobile_description.rviz
+[0.100s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/rviz/rviz.rviz
+[0.102s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/ament_index/resource_index/package_run_dependencies/mec_mobile_description
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/ament_index/resource_index/parent_prefix_path/mec_mobile_description
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/environment/ament_prefix_path.sh
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/environment/ament_prefix_path.dsv
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/environment/path.sh
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/environment/path.dsv
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/local_setup.bash
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/local_setup.sh
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/local_setup.zsh
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/local_setup.dsv
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.dsv
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/ament_index/resource_index/packages/mec_mobile_description
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/cmake/mec_mobile_descriptionConfig.cmake
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/cmake/mec_mobile_descriptionConfig-version.cmake
+[0.103s] -- Up-to-date: /home/genesis/genesis_bot2_/ros2_ws/install/mec_mobile_description/share/mec_mobile_description/package.xml
+[0.105s] Invoked command in '/home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/genesis/genesis_bot2_/ros2_ws/build/mec_mobile_description

@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000287] (-) JobUnselected: {'identifier': 'mec_mobile'}
+[0.000502] (-) JobUnselected: {'identifier': 'mec_mobile_description'}
+[0.000546] (-) JobUnselected: {'identifier': 'mec_mobile_gazebo'}
+[0.000585] (-) JobUnselected: {'identifier': 'mec_mobile_navigation'}
+[0.000622] (mec_mobile_teleop) JobQueued: {'identifier': 'mec_mobile_teleop', 'dependencies': OrderedDict()}
+[0.001289] (mec_mobile_teleop) JobStarted: {'identifier': 'mec_mobile_teleop'}
+[0.099644] (-) TimerEvent: {}
+[0.200318] (-) TimerEvent: {}
+[0.300934] (-) TimerEvent: {}
+[0.401518] (-) TimerEvent: {}
+[0.502779] (-) TimerEvent: {}
+[0.603922] (-) TimerEvent: {}
+[0.704531] (-) TimerEvent: {}
+[0.805710] (-) TimerEvent: {}
+[0.906158] (-) TimerEvent: {}
+[1.006745] (-) TimerEvent: {}
+[1.107223] (-) TimerEvent: {}
+[1.207762] (-) TimerEvent: {}
+[1.308304] (-) TimerEvent: {}
+[1.408840] (-) TimerEvent: {}
+[1.509336] (-) TimerEvent: {}
+[1.609853] (-) TimerEvent: {}
+[1.710410] (-) TimerEvent: {}
+[1.810983] (-) TimerEvent: {}
+[1.912096] (-) TimerEvent: {}
+[2.012653] (-) TimerEvent: {}
+[2.113262] (-) TimerEvent: {}
+[2.214349] (-) TimerEvent: {}
+[2.314924] (-) TimerEvent: {}
+[2.415551] (-) TimerEvent: {}
+[2.516435] (-) TimerEvent: {}
+[2.617098] (-) TimerEvent: {}
+[2.717815] (-) TimerEvent: {}
+[2.818477] (-) TimerEvent: {}
+[2.828441] (mec_mobile_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/mec_mobile_teleop', 'build', '--build-base', '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build', 'install', '--record', '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/src/mec_mobile/mec_mobile_teleop', 'env': {'PYTHON_BASIC_REPL': '1', 'USER': 'genesis', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/genesis/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GIT_ASKPASS': '/snap/code/218/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'LESS': '-R', 'HOME': '/home/genesis', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/src', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/218/usr/lib/x86_64-linux-gnu/gtk-3.0', 'TERM_PROGRAM_VERSION': '1.108.0', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'ZSH': '/home/genesis/.oh-my-zsh', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/genesis/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'PAGER': 'less', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/218/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/218/usr/share/code/code', 'P9K_TTY': 'old', 'SYSTEMD_EXEC_PID': '4674', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/genesis/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install', 'LOGNAME': 'genesis', '_P9K_SSH_TTY': '/dev/pts/2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USER_ZDOTDIR': '/home/genesis', 'USERNAME': 'genesis', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/genesis/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/genesis/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/genesis/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/genesis-HP-Pavilion-x360-2-in-1-Laptop-14-ek0xxx:@/tmp/.ICE-unix/4414,unix/genesis-HP-Pavilion-x360-2-in-1-Laptop-14-ek0xxx:/tmp/.ICE-unix/4414', 'GTK_EXE_PREFIX': '/snap/code/218/usr', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/183a19a7_559e_460d_8586_8407b1d1903a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/218/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/genesis/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-42a80b0ead656ff4.txt', 'PYTHONSTARTUP': '/home/genesis/.config/Code/User/workspaceStorage/0aa95d52c74e57daa9c61553f2f37388/ms-python.python/pythonrc.py', 'VSCODE_INJECTION': '1', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/genesis/snap/code/218/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B9BVI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.153', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f7e38eb777.sock', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/genesis/snap/code/218/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_navigation:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_gazebo:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'ROS_WS': '/home/genesis/ece569-fall2025/LAB2/ws2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'P9K_SSH': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': 'c9799f62-d3e2-474c-8604-02622c74330b', 'PWD': '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop', 'LC_ALL': 'en_US.UTF-8', '_P9K_TTY': '/dev/pts/2', 'XDG_DATA_DIRS': '/home/genesis/snap/code/218/.local/share:/home/genesis/snap/code/218:/snap/code/218/usr/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ZDOTDIR': '/home/genesis', 'PYTHONPATH': '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_navigation:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_gazebo:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.919916] (-) TimerEvent: {}
+[3.020503] (-) TimerEvent: {}
+[3.121149] (-) TimerEvent: {}
+[3.221727] (-) TimerEvent: {}
+[3.322529] (-) TimerEvent: {}
+[3.424552] (-) TimerEvent: {}
+[3.525505] (-) TimerEvent: {}
+[3.625968] (-) TimerEvent: {}
+[3.661608] (mec_mobile_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[3.726138] (-) TimerEvent: {}
+[3.734763] (mec_mobile_teleop) StdoutLine: {'line': b'writing ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/PKG-INFO\n'}
+[3.735817] (mec_mobile_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/dependency_links.txt\n'}
+[3.736441] (mec_mobile_teleop) StdoutLine: {'line': b'writing entry points to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/entry_points.txt\n'}
+[3.736979] (mec_mobile_teleop) StdoutLine: {'line': b'writing requirements to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/requires.txt\n'}
+[3.737538] (mec_mobile_teleop) StdoutLine: {'line': b'writing top-level names to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/top_level.txt\n'}
+[3.826306] (-) TimerEvent: {}
+[3.868474] (mec_mobile_teleop) StdoutLine: {'line': b"reading manifest file '../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/SOURCES.txt'\n"}
+[3.877500] (mec_mobile_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/SOURCES.txt'\n"}
+[3.878184] (mec_mobile_teleop) StdoutLine: {'line': b'running build\n'}
+[3.878457] (mec_mobile_teleop) StdoutLine: {'line': b'running build_py\n'}
+[3.878789] (mec_mobile_teleop) StdoutLine: {'line': b'copying mec_mobile_teleop/camera_subscriber.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build/lib/mec_mobile_teleop\n'}
+[3.879674] (mec_mobile_teleop) StdoutLine: {'line': b'running install\n'}
+[3.902099] (mec_mobile_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[3.926476] (-) TimerEvent: {}
+[3.962702] (mec_mobile_teleop) StdoutLine: {'line': b'copying /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build/lib/mec_mobile_teleop/camera_subscriber.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop\n'}
+[3.964533] (mec_mobile_teleop) StdoutLine: {'line': b'byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop/camera_subscriber.py to camera_subscriber.cpython-312.pyc\n'}
+[3.966840] (mec_mobile_teleop) StdoutLine: {'line': b'running install_data\n'}
+[3.967353] (mec_mobile_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.013409] (mec_mobile_teleop) StdoutLine: {'line': b"removing '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.014844] (mec_mobile_teleop) StdoutLine: {'line': b'Copying ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop-0.0.0-py3.12.egg-info\n'}
+[4.017526] (mec_mobile_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[4.026654] (-) TimerEvent: {}
+[4.127252] (-) TimerEvent: {}
+[4.228431] (-) TimerEvent: {}
+[4.329179] (-) TimerEvent: {}
+[4.419990] (mec_mobile_teleop) StdoutLine: {'line': b'Installing camera_subscriber script to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/mec_mobile_teleop\n'}
+[4.420631] (mec_mobile_teleop) StdoutLine: {'line': b'Installing xbox_teleop script to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/mec_mobile_teleop\n'}
+[4.420953] (mec_mobile_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/install.log'\n"}
+[4.429444] (-) TimerEvent: {}
+[4.502817] (mec_mobile_teleop) CommandEnded: {'returncode': 0}
+[4.529634] (-) TimerEvent: {}
+[4.547739] (mec_mobile_teleop) JobEnded: {'identifier': 'mec_mobile_teleop', 'rc': 0}
+[4.549704] (-) EventReactorShutdown: {}

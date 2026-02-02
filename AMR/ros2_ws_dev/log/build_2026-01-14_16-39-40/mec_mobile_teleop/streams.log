@@ -1,0 +1,25 @@
+[2.691s] Invoking command in '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/src/mec_mobile/mec_mobile_teleop': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mec_mobile_teleop build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/install.log --single-version-externally-managed install_data
+[3.424s] running egg_info
+[3.501s] writing ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/PKG-INFO
+[3.502s] writing dependency_links to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/dependency_links.txt
+[3.502s] writing entry points to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/entry_points.txt
+[3.503s] writing requirements to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/requires.txt
+[3.503s] writing top-level names to ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/top_level.txt
+[3.628s] reading manifest file '../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/SOURCES.txt'
+[3.637s] writing manifest file '../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info/SOURCES.txt'
+[3.637s] running build
+[3.637s] running build_py
+[3.639s] copying mec_mobile_teleop/camera_subscriber.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build/lib/mec_mobile_teleop
+[3.639s] running install
+[3.660s] running install_lib
+[3.721s] copying /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build/lib/mec_mobile_teleop/camera_subscriber.py -> /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop
+[3.722s] byte-compiling /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop/camera_subscriber.py to camera_subscriber.cpython-312.pyc
+[3.723s] running install_data
+[3.724s] running install_egg_info
+[3.796s] removing '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop-0.0.0-py3.12.egg-info' (and everything under it)
+[3.796s] Copying ../../../build/mec_mobile_teleop/mec_mobile_teleop.egg-info to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages/mec_mobile_teleop-0.0.0-py3.12.egg-info
+[3.800s] running install_scripts
+[4.205s] Installing camera_subscriber script to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/mec_mobile_teleop
+[4.206s] Installing xbox_teleop script to /home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/mec_mobile_teleop
+[4.206s] writing list of installed files to '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/install.log'
+[4.295s] Invoked command in '/home/genesis/GENESIS_BOT2_/ros2_ws_dev/src/mec_mobile/mec_mobile_teleop' returned '0': PYTHONPATH=/home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/genesis/GENESIS_BOT2_/ros2_ws_dev/install/mec_mobile_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mec_mobile_teleop build --build-base /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/build install --record /home/genesis/GENESIS_BOT2_/ros2_ws_dev/build/mec_mobile_teleop/install.log --single-version-externally-managed install_data
