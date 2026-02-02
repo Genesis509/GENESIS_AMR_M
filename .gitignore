@@ -1,0 +1,17 @@
+# VS Code internal files
+.vscode/
+*.log
+**/events.log
+**/*.log
+
+# Environment files
+*.env
+.env*
+**/*.env
+
+# Build/temp directories
+**/logs/
+**/build/
+**/dist/
+**/temp/
+**/out/
