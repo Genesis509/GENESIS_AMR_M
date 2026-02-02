@@ -5,13 +5,13 @@ An autonomous mobile robot with a 5-DOF manipulator, designed as a comprehensive
 ![[images/AMR_M.png]]
 ## **Current Capabilities**
 
+See demo : https://drive.google.com/drive/folders/1hUCp3poNAlBxnC5ldVQJObooRF3JIzBk?usp=sharing
 ### Mobile Platform
 
 ![[images/AMR3.jpg|500]]
 
 - **Teleoperation**: Omnidirectional movement with Xbox controller, live video feedback via MediaMTX, and pan-tilt first-person view control
-- **"Good Boy" Mode**: Autonomous search and retrieval of a green ball using omnidirectional movement and pan-tilt camera tracking
-
+- **"Good Boy" Mode**: Autonomous search and retrieval of a green ball using omnidirectional movement and pan-tilt camera tracking.
 ### Manipulator
 
 ![[images/5DOF_MANIPULATOR.jpg]]
