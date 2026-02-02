@@ -3,3 +3,24 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+# VS Code internal files
+.vscode/
+*.log
+**/events.log
+**/*.log
+
+# Environment files
+*.env
+.env*
+**/*.env
+
+# Build/temp directories
+**/logs/
+**/build/
+**/dist/
+**/temp/
+**/out/
+
+.vscode/settings.json    
+.vscode/launch.json       
+.vscode/tasks.json        
