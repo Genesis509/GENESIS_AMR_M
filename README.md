@@ -4,7 +4,7 @@
 
 An autonomous mobile robot with a 5-DOF manipulator, designed as a comprehensive exploration of core robotics concepts. This project implements everything from low-level register programming to high-level vision-language-action (VLA) systems.
 
-![[images/AMR_M.png]]
+![](images/AMR_M.png)
 ## **Current Capabilities**
 
 See demo : https://drive.google.com/drive/folders/1hUCp3poNAlBxnC5ldVQJObooRF3JIzBk?usp=sharing
