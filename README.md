@@ -4,41 +4,57 @@
 
 An autonomous mobile robot with a 5-DOF manipulator, designed as a comprehensive exploration of core robotics concepts. This project implements everything from low-level register programming to high-level vision-language-action (VLA) systems.
 
-![](images/AMR_M.png)
+![](images/AMR_M_2_HQ5.png)
 ## **Current Capabilities**
 
 See demo : https://drive.google.com/drive/folders/1hUCp3poNAlBxnC5ldVQJObooRF3JIzBk?usp=sharing
-### Mobile Platform
 
-![[images/AMR3.jpg|500]]
+## Workbench🙂
+![](images/amr_m_1.jpg)
+
+## Gazebo view
+![](images/gazebo_view.png)
+
+## Rviz view
+![](images/rviz_2.png)
+
+## sprinkle of math
+![](images/Genesis_Bot_Kinematics_Desc_Dark.png)
+
+## Code Architecture Overview
+![](images/PHASE_1.5.png)
+
+### Mobile Platform
 
 - **Teleoperation**: Omnidirectional movement with Xbox controller, live video feedback via MediaMTX, and pan-tilt first-person view control
 - **"Good Boy" Mode**: Autonomous search and retrieval of a green ball using omnidirectional movement and pan-tilt camera tracking.
-### Manipulator
 
-![[images/5DOF_MANIPULATOR.jpg]]
+
+### Manipulator
 
 - **Servo-to-Joint Space Mapping**: Translates and constrains commands from joint space to servo space, handling centering, range limits, and register communication
 - **Forward Kinematics**: Complete kinematic chain implementation
 - **Inverse Kinematics**: Analytical or numerical IK solver for end-effector positioning
 - **Blind Pick-and-Place**: Path interpolation for automated manipulation tasks
 - **GUI Control & Visualization**: Real-time workspace visualization with joint control, pose goals, and mathematical space representation
+- **Ball Pose Estimation**:  3D position estimation
+- **Image-Based Visual Servoing (IBVS)**: Vision-guided manipulation control
 
+  
 ## **In Development (Coming Soon)**
 
 ### Mobile Platform
 
 - **Autonomous Mapping**: Frontier exploration with A* or RRT* path planning (toggling based on environment structure; RRT* offers faster performance but struggles in tight spaces). *Simulation complete, implementation in progress.*
 - **Autonomous Navigation + Obstacle Avoidance**: A* for global path planning with RRT* for dynamic replanning around static obstacles. *Simulation complete, implementation in progress.*
-- **Ball Pose Estimation**: Enhanced "Good Boy" mode with 3D position estimation
+- **Restructuring the power system to enhance vibration resistance, optimize power distribution, and improve battery management.**
 
 ### Manipulator
 
-- **Image-Based Visual Servoing (IBVS)**: Vision-guided manipulation control
+-- **object pose estimation, classification, and segmentation using YOLO and custom-trained models.**
 
 ## **Future Roadmap**
 
-- **Integrated Mobile Manipulation**: Full coordination of mobile base and manipulator for pick-and-place tasks using classical computer vision
 - **ML-Based Perception**: Object segmentation and classification using machine learning for advanced pick-and-place operations
 - **Learning-Based Control**: Machine learning and reinforcement learning approaches for dexterous manipulation
 
