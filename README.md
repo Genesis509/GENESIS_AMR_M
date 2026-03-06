@@ -27,7 +27,7 @@ See demo : https://drive.google.com/drive/folders/1hUCp3poNAlBxnC5ldVQJObooRF3JI
 ### Mobile Platform
 
 - **Teleoperation**: Omnidirectional movement with Xbox controller, live video feedback via MediaMTX, and pan-tilt first-person view control
-- **"Good Boy" Mode**: Autonomous search and retrieval of a green ball using omnidirectional movement and pan-tilt camera tracking.
+- **"Good Boy" Mode**: Autonomous search and retrieval of a green ball using omnidirectional movement.
 
 
 ### Manipulator
@@ -38,7 +38,7 @@ See demo : https://drive.google.com/drive/folders/1hUCp3poNAlBxnC5ldVQJObooRF3JI
 - **Blind Pick-and-Place**: Path interpolation for automated manipulation tasks
 - **GUI Control & Visualization**: Real-time workspace visualization with joint control, pose goals, and mathematical space representation
 - **Ball Pose Estimation**:  3D position estimation
-- **Image-Based Visual Servoing (IBVS)**: Vision-guided manipulation control
+- **Image-Based Visual Servoing (IBVS) and Position-based visual servoing (PBVS)**: Vision-guided manipulation control
 
   
 ## **In Development (Coming Soon)**
