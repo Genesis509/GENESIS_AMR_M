@@ -1,5 +1,7 @@
 # GENESIS_AMR_M
 
+# Hi! Significant improvements have been made to this project. Please check my LinkedIn https://www.linkedin.com/in/jacquet-daniel/ for updates while I polish the codebase before pushing it to this repository. 😉
+
 An autonomous mobile robot with a 5-DOF manipulator, designed as a comprehensive exploration of core robotics concepts. This project implements everything from low-level register programming to high-level vision-language-action (VLA) systems.
 
 ![[images/AMR_M.png]]
