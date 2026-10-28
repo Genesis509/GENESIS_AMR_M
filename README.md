@@ -1,7 +1,7 @@
 # GENESIS_AMR_M
 
 > [!NOTE]
-> Significant improvements have been made to this project! For more regular updates, please check the [documentation](https://danieljacquet.com/genesis_bot/). 😉
+> Significant improvements have been made to this project! For more regular updates, please check the [documentation](https://danieljacquet.com/projects/genesis-amr/). 😉
 
 ![](images/AMR_M_2_HQ5.png)
 
